@@ -39,7 +39,7 @@
     "unitransform": "^1.0.5"
   },
   "devDependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.6",
+    "@emotion/babel-preset-css-prop": "^10.0.9",
     "axios": "^0.18.0",
     "csvtojson": "^2.0.8",
     "cypress": "^3.1.4",
