@@ -25,7 +25,7 @@
     "test": "server-test buildTestServer 3939 cyTest"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.6",
+    "@emotion/core": "^10.0.16",
     "@reach/router": "^1.2.1",
     "@sentry/browser": "^4.5.2",
     "chart.js": "^2.7.3",
