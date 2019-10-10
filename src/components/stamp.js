@@ -24,7 +24,7 @@ const Stamp = ({ children, green }) => (
           monospace !important;
         color: ${getColor(green)};
         border: 0.5rem double ${getColor(green)};
-        transform: rotate(${green ? `-` : ``}3deg);
+        transform: rotate(${green ? '-' : ''}3deg);
         font-size: 2rem;
         margin: 0.8rem 2rem;
       `}

@@ -15,8 +15,9 @@ import {
 } from 'react-icons/fa';
 
 const ShareLinks = () => {
-  const description = `IsEarthStillWarming.com: Global warming information and data`;
-  const url = `https://isearthstillwarming.com`;
+  const description =
+    'IsEarthStillWarming.com: Global warming information and data';
+  const url = 'https://isearthstillwarming.com';
   return (
     <ClassNames>
       {({ css: style }) => (

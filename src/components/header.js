@@ -2,7 +2,7 @@ import React from 'react';
 import { lighten } from 'unitransform';
 import { css } from '@emotion/core';
 
-import Counter from '../components/counter';
+import Counter from './counter';
 import { red, redDark } from '../utils/colors';
 import ContentWrapper from './contentWrapper';
 import fire from '../../public/assets/fire-icon.svg';
@@ -52,8 +52,7 @@ const Header = props => (
             alt="fire icon"
             height="20px"
             src={fire}
-          />
-          {` `}
+          />{' '}
           IsEarthStillWarming.com
         </h1>
         <nav
@@ -89,8 +88,10 @@ const Header = props => (
       `}
     >
       This website is kept up-to-date with climate data provided by NASA and
-      Scripps Institution of Oceanography.<br />
-      Altimetry data are provided by the NOAA Laboratory for Satellite Altimetry.
+      Scripps Institution of Oceanography.
+      <br />
+      Altimetry data are provided by the NOAA Laboratory for Satellite
+      Altimetry.
     </div>
   </header>
 );

@@ -1,7 +1,9 @@
 import React from 'react';
-import { Root, Routes, addPrefetchExcludes, Head } from 'react-static';
+import {
+  Root, Routes, addPrefetchExcludes, Head,
+} from 'react-static';
 //
-import { Router, Link } from '@reach/router';
+import { Router } from '@reach/router';
 
 import { css } from '@emotion/core';
 import 'modern-normalize/modern-normalize.css';
@@ -62,19 +64,19 @@ function App() {
         <link
           rel="apple-touch-icon"
           sizes="120x120"
-          href={require(`../public/assets/apple-touch-icon.png`)}
+          href={require('../public/assets/apple-touch-icon.png')}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={require(`../public/assets/favicon-32x32.png`)}
+          href={require('../public/assets/favicon-32x32.png')}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={require(`../public/assets/favicon-16x16.png`)}
+          href={require('../public/assets/favicon-16x16.png')}
         />
       </Head>
       <div

@@ -85,5 +85,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-artifacts/react-static-templates.js
-artifacts/react-static-templates.js
+artifacts/
